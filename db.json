@@ -27,5 +27,31 @@
       "printTimeLeftOrigin": "mixed-analysis"
     },
     "state": "Printing"
-  }]
+  }],
+  "printers": [{
+      "state": {
+        "flags": {
+          "closedOrError": false,
+          "error": false,
+          "operational": true,
+          "paused": false,
+          "printing": true,
+          "ready": false,
+          "sdReady": false
+        },
+        "text": "Printing"
+      },
+      "temperature": {
+        "bed": {
+          "actual": 59.99,
+          "offset": 0,
+          "target": 60.0
+        },
+        "tool0": {
+          "actual": 199.55,
+          "offset": 0,
+          "target": 200.0
+        }
+      }
+    }]
 }
