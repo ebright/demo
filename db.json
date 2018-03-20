@@ -1,14 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "jobs": [{
+    "job": {
+      "averagePrintTime": null,
+      "estimatedPrintTime": 30647.243164024483,
+      "filament": {
+        "tool0": {
+          "length": 48105.49509999553,
+          "volume": 0.0
+        }
+      },
+      "file": {
+        "date": 1521553630,
+        "display": "StayPuft_Marshmallow_Man-1.gcode",
+        "name": "StayPuft_Marshmallow_Man-1.gcode",
+        "origin": "local",
+        "path": "StayPuft_Marshmallow_Man-1.gcode",
+        "size": 15701139
+      },
+      "lastPrintTime": null
+    },
+    "progress": {
+      "completion": 10.692740189103478,
+      "filepos": 1678882,
+      "printTime": 5199,
+      "printTimeLeft": 29284,
+      "printTimeLeftOrigin": "mixed-analysis"
+    },
+    "state": "Printing"
+  }]
 }
